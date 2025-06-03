@@ -79,7 +79,7 @@ df_filtered = df[df['in_polygon']].drop(columns='in_polygon')
 
 ---
 
-## ![Insert spatial map of filtered complaints](path-to-image-1.png)
+## ![Insert spatial map of filtered complaints](complaintstypes_time.png)
 
 *A view of complaints isolated to the Webster Avenue corridor.*
 
@@ -104,7 +104,7 @@ df_filtered = df_filtered[df_filtered['complaint_type'].isin(complaints_of_inter
 
 ---
 
-## ![Insert chart of response times or complaint counts](path-to-image-2.png)
+## ![Insert chart of response times or complaint counts](slow_response.png)
 
 *A look at how long it takes for city agencies to respond to different complaint types.*
 
